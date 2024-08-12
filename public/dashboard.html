@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Healthcare & Lifesciences</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://media.twiliocdn.com/sdk/js/video/releases/2.28.0/twilio-video.min.js"></script>
+    <script src="js/dashboard.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo" id="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#purchases">Purchases</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#claims">Claims</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="claim-info">
+            <h1>Claim Information</h1>
+            <table>
+                <tr>
+                    <th>Incident Type</th>
+                    <td>Knee Replacement</td>
+                </tr>
+                <tr>
+                    <th>Claim No</th>
+                    <td>CL12345</td>
+                </tr>
+                <tr>
+                    <th>Policy No</th>
+                    <td>SAPO1234rew</td>
+                </tr>
+                <tr>
+                    <th>Date of Surgery</th>
+                    <td>09-03-2022</td>
+                </tr>
+                <tr>
+                    <th>Claim Handler</th>
+                    <td>Andy Doyle</td>
+                </tr>
+                <tr>
+                    <th>User Email Address</th>
+                    <td>customer1@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>Status</th>
+                    <td id="status">Processing</td>
+                </tr>
+            </table>
+        </section> <br><br>
+        <section id="actions">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button id="send_email">Send Email</button>
+            <br>
+            <br><br><button onclick="makeCall()">Make Call</button>
+            <button onclick="trackEvent()">Track Event</button>
+            <br>
+            <label><br><br>Enter your name to join the room:</label>
+            <input type="text" id="customInput" />
+            <div class="btn-group">
+                <br>
+                <button id="join-btn">Join Video</button>
+                <button id="end-btn">End Video</button>
+            </div>
+            <div id="video-url-container" style="display: none;">
+                <p>Share this URL with remote participants to join the call:</p>
+                <input type="text" maxlength="2800" id="video-url" readonly>
+            </div>
+            <div id="video-container"></div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Healthcare & Lifesciences. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare and Financial Services</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Styles for centering and styling the log-section */
+        #log-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            min-height: 100vh;
+            /* Ensures vertical centering */
+            box-sizing: border-box;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        #logs {
+            width: 80%;
+            /* Adjust as needed */
+            max-width: 800px;
+            height: 200px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            color: #555;
+            font-size: 16px;
+            /* Increased font size */
+            background-color: #f9f9f9;
+            box-sizing: border-box;
+            border-radius: 4px;
+            /* Optional rounded corners */
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <h1>TwilioOne Mortgage - Your Trusted Home Loan Partner</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#banking">Banking</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#loans">Loans</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="call-section">
+            <h2>Please provide your best contact number</h2>
+            <h5>Enter your phone number (e.g., +1234567890)</h5>
+            <input id="phoneNumber" type="tel" placeholder="+1234567890" required>
+            <button id="callButton">Make Call</button>
+        </section>
+
+        <section id="log-section">
+            <h2>Application Logs</h2>
+            <div id="logs">
+                <!-- Logs explicitly displayed here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 TwilioOne Mortgage. All rights reserved</p>
+    </footer>
+
+    <!-- Explicitly Include JavaScript Websocket logic -->
+    <script src="js/agent.js"></script>
+</body>
+
+</html>

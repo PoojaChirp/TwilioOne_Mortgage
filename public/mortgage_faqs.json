@@ -1,0 +1,136 @@
+{
+  "faqs": [
+    {
+      "question": "What is a mortgage, and how does it work?",
+      "answer": "A mortgage is a loan used to buy a home, where the property serves as collateral. You repay it in monthly installments, including principal and interest."
+    },
+    {
+      "question": "What are the different types of mortgages available?",
+      "answer": "Common mortgage types include fixed-rate, adjustable-rate (ARM), FHA, VA, and jumbo loans. Each has unique terms and benefits."
+    },
+    {
+      "question": "What is the difference between a fixed-rate and an adjustable-rate mortgage (ARM)?",
+      "answer": "A fixed-rate mortgage has a constant interest rate, while an ARM has a rate that can change periodically after an initial fixed period."
+    },
+    {
+      "question": "How do I qualify for a mortgage?",
+      "answer": "Qualification depends on credit score, income, debt-to-income ratio, and down payment amount. Lenders evaluate financial history to determine eligibility."
+    },
+    {
+      "question": "What is the minimum credit score needed for a mortgage?",
+      "answer": "Most lenders require a credit score of at least 620 for conventional loans, while FHA loans may accept scores as low as 500 with a higher down payment."
+    },
+    {
+      "question": "How much down payment do I need to buy a home?",
+      "answer": "A typical down payment is 20%, but options exist for as low as 3% for conventional loans or 0% for VA and USDA loans."
+    },
+    {
+      "question": "What are the current mortgage interest rates?",
+      "answer": "Mortgage interest rates fluctuate based on market conditions. Check with lenders or financial websites for the latest rates."
+    },
+    {
+      "question": "How is my mortgage interest rate determined?",
+      "answer": "Your rate is based on credit score, loan type, loan term, down payment, and market trends. A higher credit score often leads to lower rates."
+    },
+    {
+      "question": "What is private mortgage insurance (PMI), and do I need it?",
+      "answer": "PMI is required for conventional loans with less than 20% down. It protects the lender if you default on the loan."
+    },
+    {
+      "question": "What are closing costs, and how much should I expect to pay?",
+      "answer": "Closing costs include lender fees, title fees, and taxes, typically ranging from 2% to 5% of the home’s purchase price."
+    },
+    {
+      "question": "What is an escrow account, and why is it necessary?",
+      "answer": "An escrow account holds property tax and homeowners insurance payments, ensuring they are paid on time."
+    },
+    {
+      "question": "What is a mortgage pre-approval, and how do I get one?",
+      "answer": "A pre-approval is a lender’s conditional commitment for a loan. It requires submitting financial documents for review."
+    },
+    {
+      "question": "How long does the mortgage approval process take?",
+      "answer": "It typically takes 30-45 days, depending on lender requirements, property appraisal, and underwriting."
+    },
+    {
+      "question": "What is a debt-to-income (DTI) ratio, and how does it impact my mortgage application?",
+      "answer": "DTI is the percentage of your income used for debt payments. A lower DTI increases loan approval chances."
+    },
+    {
+      "question": "What documents do I need to apply for a mortgage?",
+      "answer": "You need proof of income, tax returns, bank statements, credit report, and identification."
+    },
+    {
+      "question": "What does it mean to refinance a mortgage?",
+      "answer": "Refinancing replaces your current mortgage with a new one, usually for a lower interest rate or better terms."
+    },
+    {
+      "question": "When should I consider refinancing my mortgage?",
+      "answer": "Refinancing is beneficial when interest rates drop, your credit improves, or you need to lower monthly payments."
+    },
+    {
+      "question": "What are the benefits of refinancing a mortgage?",
+      "answer": "Benefits include lower monthly payments, reduced interest costs, cash-out options, and loan term adjustments."
+    },
+    {
+      "question": "Can I refinance if I have bad credit?",
+      "answer": "It’s possible but may come with higher interest rates. FHA or specialized programs can help lower-credit borrowers."
+    },
+    {
+      "question": "How much does it cost to refinance a mortgage?",
+      "answer": "Refinancing costs typically range from 2% to 5% of the loan amount, including lender fees, appraisal fees, and closing costs."
+    },
+    {
+      "question": "Can I refinance to get rid of private mortgage insurance (PMI)?",
+      "answer": "Yes, refinancing can remove PMI if your home equity reaches 20% or more."
+    },
+    {
+      "question": "What is a cash-out refinance, and how does it work?",
+      "answer": "A cash-out refinance replaces your mortgage with a larger loan, allowing you to withdraw the difference in cash."
+    },
+    {
+      "question": "How do I know if refinancing will save me money?",
+      "answer": "Calculate the break-even point by comparing closing costs to monthly savings. If you plan to stay long-term, refinancing may be beneficial."
+    },
+    {
+      "question": "What is a no-closing-cost refinance?",
+      "answer": "A no-closing-cost refinance shifts fees into the loan balance or interest rate, eliminating upfront payments."
+    },
+    {
+      "question": "How long does it take to complete a mortgage refinance?",
+      "answer": "Refinancing usually takes 30-45 days, depending on lender processing times and documentation."
+    },
+    {
+      "question": "Can I refinance my mortgage if I’m behind on payments?",
+      "answer": "It’s possible through hardship programs, but you may need to catch up on payments or seek loan modifications."
+    },
+    {
+      "question": "What happens to my home equity when I refinance?",
+      "answer": "Refinancing doesn’t impact home equity unless you take cash out, which reduces available equity."
+    },
+    {
+      "question": "Can I refinance my mortgage multiple times?",
+      "answer": "Yes, but consider closing costs and potential savings before refinancing again."
+    },
+    {
+      "question": "What is the difference between rate-and-term refinancing and cash-out refinancing?",
+      "answer": "Rate-and-term refinancing improves loan terms, while cash-out refinancing provides extra funds by borrowing against equity."
+    },
+    {
+      "question": "Is refinancing worth it if I plan to sell my home soon?",
+      "answer": "It depends on how soon you sell. If savings exceed closing costs before selling, refinancing can be beneficial."
+    },
+    {
+      "question": "What is an FHA loan, and who qualifies for it?",
+      "answer": "An FHA loan is a government-backed mortgage with lower credit and down payment requirements, ideal for first-time buyers."
+    },
+    {
+      "question": "What are VA loans, and how do they work?",
+      "answer": "VA loans are for eligible military members, offering 0% down payment and no PMI."
+    },
+    {
+      "question": "Are there first-time homebuyer programs available?",
+      "answer": "Yes, many states offer grants, down payment assistance, and special loan programs for first-time buyers."
+    }
+  ]
+}

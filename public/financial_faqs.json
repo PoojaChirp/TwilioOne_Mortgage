@@ -1,0 +1,136 @@
+{
+  "faqs": [
+    {
+      "question": "What is a credit score?",
+      "answer": "A credit score is a numerical representation of your creditworthiness, typically ranging from 300 to 850. It helps lenders determine the risk of lending you money."
+    },
+    {
+      "question": "How can I improve my credit score?",
+      "answer": "To improve your credit score, pay bills on time, keep credit card balances low, avoid opening too many accounts at once, and regularly check your credit report for errors."
+    },
+    {
+      "question": "What are the different types of bank accounts?",
+      "answer": "Common types of bank accounts include checking accounts (for daily transactions), savings accounts (for storing and growing money), and certificates of deposit (CDs) for fixed-term savings."
+    },
+    {
+      "question": "What is an interest rate?",
+      "answer": "An interest rate is the percentage charged by a lender for borrowing money or earned on deposits in a savings account."
+    },
+    {
+      "question": "How do I apply for a loan?",
+      "answer": "To apply for a loan, you typically need to provide proof of income, credit history, and collateral (for secured loans). Contact your bank or lender for specific requirements."
+    },
+    {
+      "question": "What is the difference between a secured and an unsecured loan?",
+      "answer": "A secured loan requires collateral (e.g., a house or car), while an unsecured loan does not. Secured loans usually have lower interest rates due to reduced risk for the lender."
+    },
+    {
+      "question": "What is an investment portfolio?",
+      "answer": "An investment portfolio is a collection of assets such as stocks, bonds, mutual funds, and real estate that an investor holds to achieve financial goals."
+    },
+    {
+      "question": "What is a 401(k) plan?",
+      "answer": "A 401(k) is a retirement savings plan offered by employers, allowing employees to contribute pre-tax income and often receive employer-matching contributions."
+    },
+    {
+      "question": "What is life insurance?",
+      "answer": "Life insurance is a contract between you and an insurer where the insurer pays a lump sum to your beneficiaries upon your death in exchange for regular premium payments."
+    },
+    {
+      "question": "How do I choose the right credit card?",
+      "answer": "Choose a credit card based on your needs—consider rewards programs, interest rates, annual fees, and benefits such as cashback or travel perks."
+    },
+    {
+      "question": "What is an overdraft?",
+      "answer": "An overdraft occurs when you spend more money than is available in your bank account, leading to a negative balance. Banks may charge overdraft fees for this service."
+    },
+    {
+      "question": "How do credit card rewards work?",
+      "answer": "Credit card rewards allow users to earn points, cashback, or miles based on their spending. These rewards can be redeemed for travel, statement credits, or merchandise."
+    },
+    {
+      "question": "What is a personal loan?",
+      "answer": "A personal loan is an unsecured loan that can be used for various purposes such as debt consolidation, home improvements, or emergency expenses."
+    },
+    {
+      "question": "What are the different types of mortgages?",
+      "answer": "Common types of mortgages include fixed-rate mortgages, adjustable-rate mortgages (ARM), FHA loans, VA loans, and jumbo loans."
+    },
+    {
+      "question": "What is an emergency fund?",
+      "answer": "An emergency fund is a savings account set aside to cover unexpected expenses like medical bills, car repairs, or job loss, typically covering 3-6 months of living expenses."
+    },
+    {
+      "question": "What is compound interest?",
+      "answer": "Compound interest is interest earned on both the initial principal and the accumulated interest from previous periods, helping your savings grow faster."
+    },
+    {
+      "question": "How does inflation affect my money?",
+      "answer": "Inflation reduces the purchasing power of money over time, meaning the same amount of money buys fewer goods and services in the future."
+    },
+    {
+      "question": "What is debt consolidation?",
+      "answer": "Debt consolidation is the process of combining multiple debts into a single loan with a lower interest rate, making it easier to manage payments."
+    },
+    {
+      "question": "What is a Roth IRA?",
+      "answer": "A Roth IRA is a retirement savings account where contributions are made with after-tax income, and withdrawals in retirement are tax-free."
+    },
+    {
+      "question": "What is a traditional IRA?",
+      "answer": "A traditional IRA is a tax-advantaged retirement account where contributions may be tax-deductible, but withdrawals in retirement are taxed as income."
+    },
+    {
+      "question": "What is a mutual fund?",
+      "answer": "A mutual fund is a pool of money collected from multiple investors to invest in stocks, bonds, or other assets, managed by a professional fund manager."
+    },
+    {
+      "question": "What is the difference between stocks and bonds?",
+      "answer": "Stocks represent ownership in a company, while bonds are loans to a company or government that pay interest over time."
+    },
+    {
+      "question": "What is a credit union?",
+      "answer": "A credit union is a member-owned financial institution that offers banking services similar to a bank but often with lower fees and better interest rates."
+    },
+    {
+      "question": "What is a payday loan?",
+      "answer": "A payday loan is a short-term, high-interest loan that is typically due on the borrower's next payday, often leading to high fees and debt cycles."
+    },
+    {
+      "question": "How does a money market account work?",
+      "answer": "A money market account is a type of savings account that typically offers higher interest rates and limited check-writing capabilities."
+    },
+    {
+      "question": "What is a certificate of deposit (CD)?",
+      "answer": "A certificate of deposit (CD) is a fixed-term savings account that pays a higher interest rate than a regular savings account, but funds are locked until maturity."
+    },
+    {
+      "question": "How does refinancing a mortgage work?",
+      "answer": "Refinancing a mortgage means replacing your current mortgage with a new one, typically to secure a lower interest rate or adjust loan terms."
+    },
+    {
+      "question": "What is a student loan?",
+      "answer": "A student loan is a type of loan designed to help students pay for education expenses, with repayment terms that may differ from standard loans."
+    },
+    {
+      "question": "What is financial planning?",
+      "answer": "Financial planning is the process of setting financial goals, creating a budget, saving, and investing to secure your financial future."
+    },
+    {
+      "question": "What are index funds?",
+      "answer": "Index funds are mutual funds or ETFs that track a specific market index, such as the S&P 500, and offer low-cost diversification."
+    },
+    {
+      "question": "What is an annuity?",
+      "answer": "An annuity is a financial product that provides regular income payments, often used as a retirement income strategy."
+    },
+    {
+      "question": "How do I create a budget?",
+      "answer": "To create a budget, list your income and expenses, set spending limits, prioritize savings, and track your financial progress regularly."
+    },
+    {
+      "question": "What is a financial advisor?",
+      "answer": "A financial advisor is a professional who helps individuals manage their finances, including investments, retirement planning, and budgeting."
+    }
+  ]
+}

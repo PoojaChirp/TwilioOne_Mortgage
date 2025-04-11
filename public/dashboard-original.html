@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Healthcare and Financial Services</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://media.twiliocdn.com/sdk/js/video/releases/2.28.0/twilio-video.min.js"></script>
+    <script src="js/dashboard.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <h1>Twilio RegVerts Healthcare and Financial Services</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#purchases">Banking</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#claims">Loans</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="claim-info">
+            <h1>Account Status</h1>
+            <table>
+                <tr>
+                    <th>Account Type</th>
+                    <td>Checking</td>
+                </tr>
+                <tr>
+                    <th>Outstanding Balance</th>
+                    <td>$ 12,345</td>
+                </tr>
+                <tr>
+                    <th>Account #</th>
+                    <td>SAPO1234</td>
+                </tr>
+                <tr>
+                    <th>Customer Account Name</th>
+                    <td>Conceal</td>
+                </tr>
+                <tr>
+                    <th>Personalized Banker</th>
+                    <td>Pooja Srinath</td>
+                </tr>
+                <tr>
+                    <th>User Email Address</th>
+                    <td>customer1@FinServ.com</td>
+                </tr>
+                <tr>
+                    <th>Status</th>
+                    <td id="status">Submitted</td>
+                </tr>
+            </table>
+        </section> <br><br>
+        <section id="actions">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button id="send_email">Send Email</button>
+            <br>
+            <br><br>
+            <!--conversationsRelay introduced here-->
+            <button id="make-call-btn">Make Call</button>
+            <!-- <button onclick="trackEvent()">Track Event</button> -->
+            <label class="label info">Track Events</label>
+            <br>
+            <label><br><br>Enter your name to join the room:</label>
+            <input type="text" id="customInput" />
+            <div class="btn-group">
+                <br>
+                <button id="join-btn">Join Video</button>
+                <button id="end-btn">End Video</button>
+            </div>
+            <div id="video-url-container" style="display: none;">
+                <p>Share this URL with remote participants to join the call:</p>
+                <input type="text" maxlength="2800" id="video-url" readonly>
+            </div>
+            <div id="video-container"></div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Twilio Financial Services. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

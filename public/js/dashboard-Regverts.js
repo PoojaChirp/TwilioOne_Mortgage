@@ -1,9 +1,11 @@
 // Global variables
+// const config = require("./../../config.json");
+// const phoneNumber = config.User1.phoneNumber;
 const phoneNumber = "+13098264420"; // Replace with the desired phone number
 const emailAddress = "psrinath@twilio.com"; // Replace with the desired email address
 
 let shouldUpdateStatusFlag = true; // Flag to control status update
-let statusIndex = 0; // Variable to track the current status index
+let previousStatus = null; // Variable to store the previous status
 
 // Function to handle status update
 function handleStatusUpdate(status) {
@@ -26,37 +28,35 @@ function handleStatusUpdate(status) {
     .catch((error) => console.error("Error:", error));
 }
 
-// Event listener for when the DOM is loaded
+// Event listener for other actions that might trigger a status update
 document.addEventListener("DOMContentLoaded", function () {
-  // Initialize status sequence
-  updateStatusInSequence();
-});
+  // Generate a random status
+  const randomStatus = getRandomStatus();
 
-// Function to update status in sequence
-function updateStatusInSequence() {
-  const statuses = ["Submitted", "Processing", "Processed"];
+  // Call handleStatusUpdate only when needed
+  if (shouldUpdateStatus()) {
+    handleStatusUpdate(randomStatus);
 
-  // Function to update status and move to the next one after a delay
-  function updateNextStatus() {
-    if (statusIndex < statuses.length) {
-      const currentStatus = statuses[statusIndex];
-      handleStatusUpdate(currentStatus);
-
-      // Increment the status index
-      statusIndex++;
-
-      // Update the next status after a delay (e.g., 4 seconds)
-      setTimeout(updateNextStatus, 4000); // Adjust delay as needed
-    }
+    // Update the previousStatus variable
+    previousStatus = randomStatus;
   }
-
-  // Start the status update sequence
-  updateNextStatus();
-}
+});
 
 // Example helper function to determine if status should be updated
 function shouldUpdateStatus() {
   return shouldUpdateStatusFlag;
+}
+
+// Function to get random status
+function getRandomStatus() {
+  const statuses = ["Submitted", "Processing", "Processed"];
+  let status;
+
+  do {
+    status = statuses[Math.floor(Math.random() * statuses.length)];
+  } while (status === previousStatus);
+
+  return status;
 }
 
 // Send Email button logic
@@ -87,7 +87,6 @@ sendEmailButton.addEventListener("click", async () => {
 });
 
 // Function to make a voice call
-/*
 async function makeCall() {
   const response = await fetch("/call", {
     method: "POST",
@@ -102,19 +101,6 @@ async function makeCall() {
   const result = await response.json();
   alert(result.success ? "Call made!" : `Error: ${result.error}`);
 }
-*/
-
-document.addEventListener("DOMContentLoaded", () => {
-  const makeCallButton = document.getElementById("make-call-btn");
-
-  if (makeCallButton) {
-    makeCallButton.addEventListener("click", function () {
-      window.location.href = "agent.html"; // Redirect to agent.html
-    });
-  } else {
-    console.error("Button with ID 'make-call-btn' not found.");
-  }
-});
 
 // Function to track an event
 async function trackEvent() {

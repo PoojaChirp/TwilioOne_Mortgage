@@ -176,7 +176,7 @@ module.exports = (app, broadcastLog) => {
       }
 
       // explicitly define your human agent's valid phone number clearly:
-      const agentNumber = "+13098264420";
+      const agentNumber = ""; // enter your phone number aka agents
 
       // Explicitly create new Twilio TwiML response explicitly clearly:
       const transferTwiml = new VoiceResponse();
